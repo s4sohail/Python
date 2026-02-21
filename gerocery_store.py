@@ -28,3 +28,20 @@ def manage_grocery_data(filename, data=None, mode='read'):
             for row in reader:
                 print(f"{row[0]:<15} | {row[1]:<10} | {row[2]:<10}")
 
+
+manage_grocery_data("grocery_items.csv", "this is test data", "read")
+
+# print("############ Welcome to Shantoo Grocery Store ############")
+# print("Are you! 'Staff' or 'Customer' ?")
+# first_message = input("Select 1 for Staff 2 for Customer: ")
+
+# print(first_message)
+
+# if first_message == '1':
+#     print("R for retrieve and U for update or C for Create Inventry")
+#     staff_message = input("Enter R , U or C: ")
+#     if staff_message.capitalize() == 'R':
+#         manage_grocery_data('gerocery_items.csv')
+#     elif staff_message.capitalize() == 'U':
+         
+    
