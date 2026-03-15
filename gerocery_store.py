@@ -115,3 +115,10 @@ if choice == '1':
 
 elif choice =='2':
     print("Customer Part will coming soon")
+    manage_grocery_data(DB_FILE)
+    print("Welcome to the Shuntoo Grocery Store")
+
+    # show list products
+    # print Add item -> A
+    # add to to card in empty list add(id , quantity)
+    # minus from stock then total bill with 5% gst
